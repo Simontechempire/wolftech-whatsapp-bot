@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+session/
+**/session/
+owner.json
+prefix_config.json
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+*.log
+.vscode/
+.idea/

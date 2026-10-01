@@ -1,0 +1,25 @@
+{
+  "name": "wolftech-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WOLFTECH WhatsApp Bot — starter framework with command loader and pairing login",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "wolftech"
+  ],
+  "author": "Simontechempire",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc10",
+    "chalk": "^5.6.2",
+    "dotenv": "^17.4.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
